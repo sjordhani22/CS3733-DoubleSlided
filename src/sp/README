@@ -1,0 +1,30 @@
+Author: Stefano Jordhani 
+Software Engineering: CS 3733 
+Individual Project 2 
+
+
+To run my program you must run it through launcher or main class and the application will appear on your screen. 
+Throughout the game, as you make moves you will be prompted messages in the console.
+--------------------------------------------------------------------------------------------------------------------
+If you click on the panel you will be prompted to keep going. If you try to make an invalid move you will be promted 
+	to keep going however nothing will change in your puzzle. If you make a valid move the move counter will increase 
+	by one. If you wish to reset the puzzle, left click on the reset button and the puzzle will return to the starting
+	configuration and the counter will return back to zero.  
+--------------------------------------------------------------------------------------------------------------------
+If you win the game you will be prompted that you have won in the console and you may not make any further moves.
+	In the case that the user wins, the whole application will be disabled and you may close the application with 
+	the "X" command in the top-right of the application and try to solve the puzzle again by running the program again.
+	
+	In order to win the game you must put the board in the winning configuration.
+--------------------------------------------------------------------------------------------------------------------	
+If you lose the game you will be prompted that you have lost in the console and you may not make any further moves.
+	In the case that the user loses, the whole application will be disabled and you may close the application with 
+	the "X" command in the top-right of the application and try to solve the puzzle again by running the program again.
+	
+	In order to lose the game you will need to have four of the same number pieces on your board.
+--------------------------------------------------------------------------------------------------------------------
+NOTE: 
+	I attempted to just disable the panel and not the whole application by using "app.panel.setEnabled(false);", 
+	however I kept getting errors for this simple command that should have done the job. Instead I disabled the 
+	whole application.
+	
